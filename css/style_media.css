@@ -1,0 +1,50 @@
+@media(max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+
+    .cl-2 {
+        width: 405px;
+        margin: 20px;
+    }
+}
+
+@media(max-width: 990px) {
+    .container {
+        width: 700px;
+    }
+    
+    .cl-2 {
+        width: 325px;
+        margin: 10px;
+    }
+
+    aside {
+        bottom: -20px;
+        left: auto;
+        right: 50%;
+        top: auto;
+        height: 50px;
+        width: 100px;
+        transform: translate(50%,0);
+        border-radius: 150px 150px 0 0 
+    }
+
+    aside:hover {
+        height: 300px;
+        width: 100%;
+        border-radius: 0 
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .cl-2 {
+        width: 96%;
+        margin: 2%;
+    }
+    
+}

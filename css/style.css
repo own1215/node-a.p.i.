@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    color: #434264;
+    font-family: "Vidaloka",Sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.container {
+    /* background-color: #ecf1f1; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+aside {
+    background-color: #595958;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+    position: fixed;
+    width: 12px;
+    transition: all 0.5s ease;
+}
+
+aside:hover {
+    width: 25%;
+}
+
+.cl-2 {
+    display: inline-block;
+    border: 1px solid black;
+    width: 455px;
+    margin: 20px;
+    height: 300px;
+}
+
+.top-slider {
+    border-bottom: 2px solid gray;
+}
+
+.top-slider img {
+    width: 100%;
+}
