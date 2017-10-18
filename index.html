@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>PROJECT 1</title>
+        <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css"> -->
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/style_media.css">
     </head>
@@ -10,22 +11,95 @@
         <!-- main content -->
         <main>
             <div class="top-slider">
-                <img src="./img/n2.jpg" alt="">
             </div>
 
             <div class="container">
-                <div class="cl-2">col 1</div>
-                <div class="cl-2">col 2</div>
-                <div class="cl-2">col 3</div>
-                <div class="cl-2">col 4</div>
-                <div class="cl-2">col 5</div>                
+                <div class="cl-2 block-a filter-grayscale">
+                    <figure>
+                        <img src="https://nxworld.net/example/css-image-hover-effects/pic01.jpg" alt="">
+                    </figure>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
+                <div class="cl-2 block-a filter-grayscale">
+                    <figure>
+                        <img src="https://nxworld.net/example/css-image-hover-effects/pic03.jpg" alt="">
+                    </figure>
+                    <span>Lorem</span>
+                </div>
+                <div class="cl-2 block-a filter-grayscale">
+                    <figure>
+                        <img src="https://nxworld.net/example/css-image-hover-effects/pic02.jpg" alt="">
+                    </figure>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>                    
+                </div>
+                <div class="cl-2 block-a filter-grayscale">
+                    <figure>
+                        <img src="https://nxworld.net/example/css-image-hover-effects/pic03.jpg" alt="">
+                    </figure>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
+                <div class="cl-2 block-a filter-grayscale">
+                    <figure>
+                        <img src="https://nxworld.net/example/css-image-hover-effects/pic01.jpg" alt="">
+                    </figure>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>                    
+                </div>                
             </div>
 
         </main>
         <!-- sidebar -->
-        <aside></aside>
+        <aside>
+            <div class="cl-3-v nav-item">
+                <a href="#">
+                    <img src="./img/add.png" alt="">
+                </a>
+            </div>
+            <div class="cl-3-v nav-item">
+                <a href="#">
+                    <img src="./img/alb1.png" alt="">
+                </a>
+            </div>
+            <div class="cl-3-v nav-item">
+                <a href="#">
+                    <img src="./img/alb1.png" alt="">
+                </a>
+            </div>
+        </aside>
+
+        <!-- modal -->
+        <div id="create-post-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-content-header">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+                <div class="modal-content-form">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="input1">input1</label>
+                            <input id="input1" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="input1">input2</label>
+                            <input id="input2" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="input3">input3</label>
+                            <textarea name="" id="" cols="30" rows="10">input3</textarea>
+                        </div>
+                        <div class="form-btn">
+                            <button class="btn-full btn-g">Save</button>                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         
         <!-- footer -->
-        <footer></footer>
+        <footer>
+            <div class="footer-i font-s">
+                Designed by A.P.I.
+            </div>
+        </footer>
     </body>
 </html>
